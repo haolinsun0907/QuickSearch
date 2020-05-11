@@ -11,7 +11,7 @@ The system developed by python 3.6, so please run the code in python 3.6 or newe
 
 To run the app:
 
-Simply open MainWindow.py, the UI will pop up.
+Simply run MainWindow.py, the UI will pop up.
 
 There are several modules to implement different functionalityies:
 
