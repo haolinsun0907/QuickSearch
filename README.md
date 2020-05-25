@@ -14,7 +14,7 @@ To run the app:
 
 Simply run MainWindow.py, the UI will pop up.
 
-There are several modules to implement different functionalityies:
+There are several modules to implement different functionalities:
 
 Model 1 & 2 (Bigram model + Query completion)
 --------------------
