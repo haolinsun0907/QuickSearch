@@ -43,12 +43,12 @@ The main function of this model is to allow the user to choose whether he is sat
 
 Model 6 (topic classification)
 ------------------
-The implementation of the module can be found in text_categorization.py. Some import functions are explained as following: 
-	parse_content: parsing the file content of Reuters corpus and topic and text of each document.
-	build_dict: building the word dictionary of the Reuters corpus.
-	make_data: each document is grouped by their topics. If a document has serval topics, then it will be grouped into several groups. Every topic assigned as a label to the vector of the document text will be the training data. If a document has no topic, it will be seen as test data later on. The training data and test data are saved after normalization and dimension reduction.
-	knn_train : train the KNN model based on train data and save into files.
-	text_classify: predict a label for each row of the test data using trained KNN model, then translate the label into topic and assign it to the corresponding document. At last save all the documents.
+The implementation of the module can be found in text_categorization.py. Some import functions are explained as following:  
+	parse_content: parsing the file content of Reuters corpus and topic and text of each document.  
+	build_dict: building the word dictionary of the Reuters corpus.  
+	make_data: each document is grouped by their topics. If a document has serval topics, then it will be grouped into several groups.   Every topic assigned as a label to the vector of the document text will be the training data. If a document has no topic, it will be seen as test data later on. The training data and test data are saved after normalization and dimension reduction.  
+	knn_train : train the KNN model based on train data and save into files.  
+	text_classify: predict a label for each row of the test data using trained KNN model, then translate the label into topic and assign it to the corresponding document. At last save all the documents.  
 
 ### Functionality: 
 The main function of this model is to give the user some options based on the topics related to the keyword after the user enters the keyword. The user can select one of the topics to view all news with this keyword on this topic. This feature enhances the user's search efficiency and can filter out topics that the user does not want to see. 
